@@ -1,0 +1,314 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+@media screen and (min-device-width: 1024px)
+  and (max-device-width: 1200px) {
+         
+        /*     
+     header design */
+    
+    
+     nav{
+      background-color: orangered;
+      padding: 40px;
+      width: 1120px;
+ 
+      
+   }
+
+   nav .logo{
+      color: black;
+      font-size: 35px;
+      text-align: center;
+      font-family: Arial;
+      margin-bottom: 50px;
+
+     
+  } 
+  nav button { 
+
+      margin-left: 10px;
+      padding: 15px;
+      margin: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      border-radius: 30px;
+      background-color: black;
+      border: 1px solid white;
+      
+      
+  }
+  nav button:hover {
+      background-color: red;
+      border-color:black;
+  }
+  nav button a {
+      color: white;
+      font-size: 25px;
+      text-decoration: none;
+      
+  }
+  
+  nav button a:hover{
+      color: black;
+  }
+  
+  
+  /* step1 body content*/
+  
+  
+  .step1 {
+      background-image: radial-gradient(white,black);
+      width: 1110px;
+              
+  }
+  
+  
+  .step1{
+      color: black;
+      
+  }
+  .step1 b{
+      position: relative;
+      top: 70px;
+      margin-left: 100px;
+      color: blue;
+      font-size: 35px;
+      
+      
+  }
+
+  .step1 p{
+       margin-left: 100px;
+       margin-top: 70px;
+       margin-right: 50px;
+       font-size: 30px;
+       word-spacing: 5px;
+        line-height: 40px;
+        
+  }
+
+  .step1 h2{
+      color: blue;
+      opacity: 0.2;
+      text-align: center;
+      font-size: 250px;
+      position: relative;
+
+  }
+  .step1 img{
+
+      margin-left: 180px;
+      margin-top: 80px;
+      width: 700px;
+  }
+  .step1 button{
+      
+      position: relative;
+      top: 40px;
+      margin-left: 350px;
+      padding: 20px;
+      border-radius: 20px;
+      background-color: blue;
+      padding-left:90px ;
+      padding-right: 90px;
+      margin-bottom: 180px;
+  }
+  .step1 button:hover{
+      background-color: red;
+  }
+  .step1 button a{
+      color: white;
+      text-decoration: none;
+      font-size: 30px;
+    }
+  .step1 button a:hover{
+      color: black;
+  }
+  
+  
+  /* 
+  footer design */
+  
+  
+  footer{
+      background-color: black;
+      width: 1200px;
+  
+  }
+  .step2 h1{
+      color: white;
+      text-align: center;
+      padding-top: 50px;
+      font-size: 30px;
+      margin-bottom: 50px;
+  }
+  .step2 a{
+      color: white;
+       text-decoration: none;
+       font-size: 25px;
+       display: flex;
+       margin-left: 500px;
+       padding-bottom: 50px;
+  }
+  
+
+
+
+
+
+
+  /*step 3 body content */
+
+
+  .step3  {
+      background-image: radial-gradient(white,orange);
+      width: 1200px;
+             
+  }
+
+
+  .step3 button  {
+      background-color: white;
+      padding: 30px;
+      margin-top: 150px;
+      margin-left:150px ;
+      margin-right: 150px;
+      border-radius: 20px;
+      border: 5px solid black;
+      
+  }
+
+  .step3 a{
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      word-spacing: 5px;
+        line-height: 40px;
+        
+  }
+
+  .step3 h1{
+      color: blue;
+      position: relative;
+      top: -20px;
+
+  }
+
+  .step3 b{
+      color: blue;
+      font-size: 22px;
+  }
+
+
+
+     
+/* 
+unit 1================================================ */
+ 
+    
+.step4{
+    background-color:black;
+    margin: 100px;
+    width: 1000px;
+
+}
+
+.step4 h1{
+    padding-top: 80px;
+    margin-left: 20px;
+    font-size: 40px;
+    color: red;
+}
+
+.step4 h2{
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 35px;
+    
+}
+
+.step4 p{
+    margin-left: 50px;
+    font-size: 30px;
+    margin-right: 50px;
+    color: white;
+    font-family: Times New Roman;
+    margin-top: 30px;
+    word-spacing: 5px;
+    line-height: 40px;
+        
+
+
+}
+
+.step4 b{
+
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.hr{
+    background-color:white;
+    margin-top: 80px;
+    height: 100px;
+
+}
+.hr h1{
+    color: black;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    font-size: 30px;
+    
+} 
+
+/* 
+table ====================================================================== */
+
+ table {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    height: 900px;
+    border-color:  white;
+
+}
+.tab{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+
+.btn-unit2{
+    margin-left:500px ;
+    margin-bottom: 90px;
+    margin-top: 100px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right:100px ;
+    border-radius: 20px;
+    background-color: blue;
+    position: relative;
+    top: -50px;
+    
+}
+.btn-unit2 a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+button:hover{
+   background-color: orange;
+} 
+
+}

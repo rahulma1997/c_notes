@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="style4.css">
+  <link rel="stylesheet" href="style5.css">
+  <link rel="stylesheet" href="style6.css">
+
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo"> C Programming Language Tutorial </h1>
+        <button><a href="index.html">Home</a></button> 
+        <button><a href="index.html">Practice Question</a></button>
+        <button><a href="index.html">objective</a></button>
+        <button><a href="index.html">About</a></button> 
+        <button><a href="index.html">Author Profile</a></button>
+          
+    
+    </nav>
+
+    <div class="step4">
+      <h1 style="text-align: center; font-size: 40px; margin-right: 150px; color: white;">UNIT - 2</h1>
+
+      <h1>Q.1. What is C constant ? Explain its types .</h1><br>
+      <h2>C CONSTANT</h2>
+      <p>When some alphabets, numbes and special symbols are combined together they get following form</p> 
+      <img src="unit2 pic/1 st.png" alt="img" class="first">
+
+      <p>Above form fo alphabet, numbers and special symbol get converted into the constants, variables and keywords.</p>
+      <img src="unit2 pic/2nd.png" alt="img" class="first">
+      
+      
+      <p>An entity that never changes is known as a <i>constant.</i> A program may involve lots of calculations. Memory of computer is used to store the result of these calculations. Computer memory consists of many cells. The calculated values are stored in these memory cells. Memory cells are also called as memory of locations which are given some random names. Since the value
+      stored in each cell may change the names given to these locations are called variable names. Let us take an example,</p>
+      <img src="unit2 pic/3rd.png" alt="img" class="first">
+
+      <p>In this figure 10 is stored in a memory location which is named as m. When a new value 20 is assigned to the same memory location m. </p><br>
+      <p>Since a memory location can hold only one value at a time, the current value 20 will overwrite 10.</p><br>
+      <p>Location m can hold different values at different times therefore m is known as a variable. The values, 10 and/or 20 do not change, hence are known as constants as they remain as it is to the different varibles. </p>
+      <img src="unit2 pic/4th.png" alt="img" class="second">
+
+      <h2>Rules for constructing Primary constants</h2>
+      <h2>Integer</h2>
+      <p>A number that represents an integral value that cannot be changed is known as integer constant. An "integer constant" may have a decimal (base 10), octal (base 8), or hexadecimal (base 16). </p>
+
+      <h2>Rules for constructing Integer Constants</h2>
+      <p>* Integer constant can be positive as well as negative.</p>
+      <p>* Integer without any sign is considered as positive integer.</p>
+      <p>* It must not have a decimal point.</p>
+      <p>* Commas or blanks are not allowed within an integer constant.</p>
+      <p>* An integer constant must not exceed the range -32768 to 32767.</p>
+      <p>* An integer constant must have at least one digit.</p>
+
+      <h2>Example of integer constants</h2>
+      <p>* 3</p>
+      <p>* +5</p>
+      <p>* -432</p>
+
+      <h2>Real Constant</h2>
+      <p>Real constants are often called Floating Point constants. It is a digit sequence containing a decimal point or exponent or both. </p><br>
+      <p>The real constants could be written in two forms__Fractional from and Exponential from.</p>
+      <h2>Rules for constructing Real Constants</h2>
+      <p>following rules must be observed while constructing real constants expressed in fractional form:</p>
+      <p>* Real constant can be positive as well as negative.</p>
+      <p>* Real constant without any sign is considered as positive integer.</p>
+      <p>* It must have a decimal point.</p>
+      <p>* Commas or blanks are not allowed within a real constant.</p>
+      <p>* A real constant must not exceed the range -3.4e38 to 3.48e38</p>
+      <p>* A real constant must have at least one digit.</p>
+      <h2>Example of Real Constants</h2>
+      <p>* +3.5</p>
+      <p>* 5.0</p>
+      <p>* -35.67</p>
+
+
+      <h2>Character Constant</h2>
+      <p>A character is a single alphabet, a single digit or a single special symbol enclosed within single inverted commas.</p>
+      <h2>Rules for constructing Character Constants</h2>
+      <p>* Both the inverted commas should point to the left for a character.</p>
+      <p>  Example, 'C' is a valid character constant whereas 'C' is invalid.</p>
+      <p>* The maximum length of a character constant can be 1 character.</p>
+      <h2>Example of Character Constants</h2>
+      <p>* 'c'</p>
+      <p>* 'm'</p>
+      <p>* '25'</p>
+      <p>* '$'</p>
+
+      <h2>Secondary Constants</h2>
+      <p>* Array</p>
+      <p>* Pointer</p>
+      <p>* Structure</p>
+      <p>* Union</p>
+
+
+      <div class="hr">
+        <h1>New Question</h1>
+       </div>
+       
+       <h1>Q.2. What is variable ? Explain in detail.</h1>
+       <h2>C Variable</h2>
+       <p>An entity that may change during program execution is called a variable. Variable names are names given to locations in memory.</p>
+       <p>C variables can be of following types:</p>
+       <h2>variable Declaration</h2>
+       <p>* In declaration of a variable, no space is reserved for it.</p>
+       <p>* A variable can be declared several times</p>
+       <h2>Syntax</h2>
+       <p><i>data_type identifie1, identifier2,.......identifier_n;</i></p>
+       <h2>Example</h2>
+       <p>int i,j;</p>
+       <h2>Variable Defination</h2>
+       <p>* In defining a variable, its space gets reserved for it in memory.</p>
+       <p>* A variable can be defined only once.</p>
+       <h2>Rules for constructing Variable Names</h2>
+       <p>* Length of variable names should be 1 to 31 characters.</p>
+       <p>* Digit must not be taken as first character of a variable name.</p>
+       <p>* Commas and blanks are not allowed within a variable name.</p>
+       <p>* only underscore can be used in a variable name as a special symbol.</p>
+ 
+
+       <div class="hr">
+        <h1>New Question</h1>
+       </div>
+      
+
+       <h1>Q.3. Define the following – 1. C Key Word    2. Litrals     3. C-Tokens</h1>
+       <h2>C KEYWORDS</h2>
+       <p>Keyword are basically the sequences of characters that have one predefined meaning. It has a special meaning in a compiler. These meanings can't be changed, in any circumstances. These are reserved word for special purpose. It is also an identifier but cannot be user defined. We cannot choose them as a variable. Every word in a c program is either a keyword or an identifier.</p>
+       <p>All C keyword must be written in lowercase (small) letters.</p>
+       <h2>List of C keyword:</h2>
+       <img src="unit2 pic/5th.png" alt="img" class="second">
+       
+       <h2>LITERALS:</h2>
+       <p>LITERALS: In computer science, a literal is a notation for representing a fixed value in source code. Almost all programming languages have notations for atomic values such as integers, floating-point numbers, strings, and booleans; some also have notations for elements of enumerated types and compound values such as arrays, records, and objects.</p><br>
+       <p>In constrast to literals, variables or constants are symbols that can take on one of a class of fixed values, the constant being constrained not to change. Litrals are often used to initialize variables, for example:</p>
+       <p>int a=1;</p>
+       <p>String s="cat";</p><br>
+       <p>In some object-oriented languages (like ECMAScript), objects can also be represented by literals. Methods of this object can be specified in the object literal using function literals. The brace notation below, which is also used for array literals, is typical for object literals:</p>
+       <p>{"cat","dog"}</p>
+       <p>{name:"cat",length:57}</p>
+
+       <h2>C-TOKENS</h2>
+       <P>C-Tokens: As in the English language, in a paragraph all the words, punctuation mark and the blank spaces are called Tokents. Similarly in C-program all the C-statements having key-symbols are called C-Token. C-Tokens are the essential part of C-complier and so re very useful in the C-programing. A token is an individual entity of a C-program:</P><br>
+       <p>Example :</p>
+       <img src="unit2 pic/6th.png" alt="img" class="second">
+       
+       <div class="hr">
+        <h1>New Question</h1>
+       </div>
+
+       <h1>Q.4. Define Indentifiers. Explain the rules for naming identifiers.<p>OR</p>  
+        What is C identifier ?  Give some examples of valid & illegal identifies.</h1>
+       
+        <h2>C IDENTIFIER</h2>
+        <p>"Identifiers" are the names you supply for variables, and some other program element i.e. functions, array etc, in a program. basically identifiers are the sequences of alphabets or digits.</p>
+        <img src="unit2 pic/7th.png" alt="img" class="first">
+        <p>Identifier names must differ in spelling and case from any keywords. You cannot use keywords as identifiers, they are reserved for special use. You create an identifier by specifying it in the declaration of a variable, type,or function.</p><br>
+        <p>PROGRAM</p>
+        <img src="unit2 pic/8.png" alt="img" class="third">  
+        <p>Output 1</p>
+        <img src="unit2 pic/9th.png" alt="img" class="forth">  
+        <p>Output 2</p>
+        <img src="unit2 pic/10th.png" alt="img" class="forth">  
+        
+        
+         
+
+
+      </div>       
+         <button class="btn-unit2">
+          <a href="">Unit 2</a>
+         </button><br><br>
+
+    <footer class="step2">
+        <h1>C Programming Language Tutorial</h1>
+        <a href="index.html">Home</a>
+        <a href="#">Practice Question</a>
+        <a href="#">Objective</a>
+        <a href="#">About</a>
+        <a href="#">Author Profile</a><br><br><br><br><br><br>
+        
+        
+     </footer>
+    
+
+    
+</body>
+</html>
+
+</body>
+</html>
